@@ -1,0 +1,27 @@
+body {
+  background: #f5f6f8;
+}
+.navbar-brand {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+.status-badge {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.drive-card {
+  transition: box-shadow 0.15s ease;
+  border: 1px solid rgba(0,0,0,0.08);
+}
+.drive-card:hover {
+  box-shadow: 0 0.25rem 0.75rem rgba(0,0,0,0.08);
+}
+.stat-card {
+  border: none;
+  border-radius: 0.75rem;
+}
+.stat-card .stat-value {
+  font-size: 2rem;
+  font-weight: 700;
+}
