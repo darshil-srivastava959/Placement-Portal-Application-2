@@ -1,4 +1,13 @@
 {
-    "python-envs.defaultEnvManager": "ms-python.python:system",
-    "python-envs.pythonProjects": []
+  "python-envs.pythonProjects": [
+    {
+      "path": "backend",
+      "envManager": "ms-python.python:venv",
+      "packageManager": "ms-python.python:pip"
+    }
+  ],
+  "python-envs.defaultEnvManager": "ms-python.python:venv",
+  "files.exclude": {
+    "**/venv": true
+  }
 }
